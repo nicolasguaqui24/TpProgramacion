@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>V A L K U R</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width-device-width, user-scalable=no, initial-scale=1, maxium-scale=1, minimum-scale=1">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1 class="icon-wristwatch">V A L K U R</h1>
+        <div class="button-h">
+            <a href="#"><button class="button">Iniciar Sesion</button></a>
+            <a href="#"><button class="button">Carrito de compras</button></a>
+        </div>
+    </header>
+    <nav class="navegacion-menu">
+        <ul>
+            <li><a href="../tpProg/index.html">Inicio</a></li>
+            <li><a href="../tpProg/tienda.html">Tiendas</a></li>
+            <li><a href="../tpProg/promociones.html">Promociones</a>
+            </li>
+            <li><a href="../tpProg/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="slide-contenedor">
+        <div class="miSlider fade">
+            <img src="../tpProg/img/banner2.jpg" alt="">
+        </div>
+        <div class="miSlider fade">
+            <img src="../tpProg/img/banner3.jpg" alt="">
+        </div>
+        <div class="miSlider fade">
+            <img src="../tpProg/img/banner4.jpg" alt="">
+        </div>
+        <div class="direcciones">
+            <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+            <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="barras">
+            <span class="barra active" onclick="posicionSlide(1)"></span>
+            <span class="barra" onclick="posicionSlide(2)"></span>
+            <span class="barra" onclick="posicionSlide(3)"></span>
+        </div>
+
+    </div>
+    <script src="../tpProg/js/main.js"></script>
+
+
+    <section>
+        <section class="menu-izq">
+            <aside  >
+                <h2 class="titulo-aside">Categorias</h2>
+                <input type="radio" id="TODOS" name="Categories" value="TODOS">
+                <input type="radio" id="Hombres" name="Categories" value="Hombres">
+                <input type="radio" id="Mujeres" name="Categories" value="Mujeres">
+
+                <div class="container-category">
+                    <li><a href="#"> Todos</a></li>
+                    <li><a href="#"> Hombres</a></li>
+                    <ul>
+                        <li><a href="#">Clasicos</a></li>
+                        <li><a href="#">Acerados</a></li>
+                    </ul>
+                    <li><a href="#"> Mujeres</a></li>
+                    <ul>
+                        <li><a href="#">Clasicos</a></li>
+                        <li><a href="#">Acerados</a></li>
+                        <li><a href="#">Alta resistencia</a></li>
+                    </ul>
+                    <!--/*<label for="TODOS">Todos</label>
+                    <label for="Hombres">Hombres</label>
+                    <label for="Mujeres">Mujeres</label>
+                    -->
+                </div>
+
+
+            </aside>
+        </section>
+
+        <section class="contenido">
+            <h2 class="Titulo">Productos Destacados! </h2>
+            <article>
+                <div class="container-post">
+
+                    <div class="posts">
+                        <div class="post" id="info1">
+
+
+                            <img src="../tpProg/img/8.jpg"
+                                alt="">
+
+                            <h2>valkur grid</h2>
+                            <span>Precio: $11.990</span>
+
+                            <a href="" onclick=""><button class="" id="">Ver mas..</button></a>
+                            <a href="#"><button class="">Comprar</button></a>
+
+                        </div>
+
+                        <div class="post" id="info2">
+
+
+                            <img src="../tpProg/img/1.jpg"
+                                alt="">
+
+                            <h2>valkur black</h2>
+                            <span>Precio: $18.990</span>
+
+                            <a href="" onclick=""><button class="" id="">Ver mas..</button></a>
+
+                            <a href="#"><button>Comprar</button></a>
+                        </div>
+                        <div class="post" id="info3">
+
+
+                            <img src="../tpProg/img/2.jpg" alt="">
+
+                            <h2>valkur red </h2>
+                            <span>Precio: $10.990</span>
+
+                            <a href="" onclick=""><button class=""  id="">Ver mas..</button></a>
+                            <a href="#"><button>Comprar</button></a>
+                        </div>
+                        <div class="post" id="info4">
+
+
+                            <img src="../tpProg/img/3.jpg" alt="">
+
+                            <h2>valkur Tradicional</h2>
+                            <span>Precio: $20.990</span>
+
+                            <a href="" onclick=""><button class="" id="">Ver mas..</button></a>
+                            <a href="#"><button>Comprar</button></a>
+                        </div>
+                        <div class="post" id="info5">
+
+
+                            <img src="../tpProg/img/4.jpg" alt="">
+
+                            <h2>valkur white</h2>
+                            <span>Precio: $9.990</span>
+
+                            <a href="" onclick=""><button class="" id="btn-abrir-popup">Ver mas..</button></a>
+                            <a href="#"><button>Comprar</button></a>
+                        </div>
+                        <div class="post" id="info6">
+
+
+                            <img src="../tpProg/img/5.png" alt="">
+
+                            <h2>valkur original</h2>
+                            <span>Precio: $5.990</span>
+
+                            <a href="" onclick=""><button class="" id="">Ver mas..</button></a>
+                            <a href="#"><button>Comprar</button></a>
+                        </div>
+                        <div class="post" id="info7" >
+
+
+                            <img src="../tpProg/img/6.png" alt="">
+
+                            <h2>valkur white dama</h2>
+                            <span>Precio: $15.990</span>
+
+                            <a href="" onclick=""><button class=""
+                                    id="btn-abrir-popup">Ver mas..</button></a>
+                            <a href="#"><button>Comprar</button></a>
+                        </div>
+
+                        <div class="post" id="info8">
+                            <img src="../tpProg/img/9.png" alt="">
+                            <h2>valkur black dama</h2>
+                            <span>Precio: $13.990</span>
+                            <a href="" ><button class= "">Ver mas..</button></a>
+                            <a href="#"><button>Comprar</button></a>
+
+
+
+
+                        </div>
+
+                    </div>
+
+            </article>
+
+        </section>
+
+    </section>
+   
+
+    <footer>
+        <div class="contenedor">
+            <p class="parrafo">@2020 Todos los derechos reservados | V A L K U R | S.A</p>
+            <div class="redes-sociales">
+                <a class="icon-facebook" href="#"></a>
+                <a class="icon-instagram" href="#"></a>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
